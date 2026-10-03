@@ -1,0 +1,26 @@
+spec_version: "0.1.0"
+name: "graph-neural-network-subgraph-sampler"
+version: "1.0.0"
+category: "data-analytics"
+author: "Rucha Salpure"
+description: "Executes variance-reduced random walk and GraphSAINT neighbor sampling on billion-scale heterogenous knowledge graphs to train GNN embeddings"
+capabilities:
+  - "graphsaint-subgraph-sampling"
+  - "autonomous-decision-making"
+  - "explainable-auditing"
+  - "multi-agent-collaboration"
+skills:
+  - "graphsaint-subgraph-sampling"
+tools:
+  - "python_executor"
+  - "audit_logger"
+  - "schema_validator"
+runtime:
+  environment: "python3.11"
+  memory_limit: "4GB"
+  timeout_seconds: 300
+governance:
+  audit_logging: true
+  human_in_the_loop: false
+  maker_checker: true
+  explainability_required: true

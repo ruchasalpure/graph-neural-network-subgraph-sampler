@@ -1,0 +1,8 @@
+{
+  "agent_id": "graph-neural-network-subgraph-sampler",
+  "protocol": "opencode/v1",
+  "capabilities": [
+    "autonomous",
+    "governed"
+  ]
+}
