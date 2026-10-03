@@ -1,17 +1,25 @@
 ---
-name: "graphsaint-subgraph-sampling"
-description: "Estimates node and edge inclusion probabilities to compute unbiased normalization coefficients for mini-batch GNN training"
-version: "1.0.0"
-category: "data-analytics"
+name: graphsaint-subgraph-sampling
+description: Specialized capability for Graph Neural Network Subgraph Sampler.
+license: MIT
+allowed-tools: ""
+metadata:
+  author: "Rucha Salpure"
+  version: "1.0.0"
+  category: data-analytics
 ---
 
-# Skill: graphsaint-subgraph-sampling
+# Graph Neural Network Subgraph Sampler — GRAPHSAINT SUBGRAPH SAMPLING Skill
 
-## Overview
-Estimates node and edge inclusion probabilities to compute unbiased normalization coefficients for mini-batch GNN training.
+## Purpose
+The `graphsaint-subgraph-sampling` capability provides high-assurance execution routines for `Graph Neural Network Subgraph Sampler`.
 
-## Execution Steps
-1. Parse and validate runtime parameters against the formal domain schema.
-2. Execute core computational and heuristic analysis pipeline.
-3. Format structured observations for Maker-Checker dual control review.
-4. Log all telemetry and performance metrics to the governance ledger.
+## Execution Workflow
+1. Validate input parameters against typed schemas and invariant constraints.
+2. Ingest contextual metrics and establish a deterministic baseline.
+3. Formulate candidate recommendations with explicit confidence intervals.
+4. Submit draft plans to the independent checker agent for verification.
+
+## Boundary Conditions
+- **Input validation:** Reject non-conforming or malformed payloads before evaluation.
+- **Fail-safe:** Escalate immediately if telemetry indicators exhibit critical anomalies.
